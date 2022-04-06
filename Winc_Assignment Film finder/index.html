@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer type="text/javascript" src="movies.js"></script>
+    <script defer type="text/javascript" src="script.js"></script>
+    <title>Assignment: Film finder</title>
+</head>
+
+<body class="body">
+    <h1 class="title">Favorite Film Finder</h1>
+    <header>
+        <nav class="navBar">
+            <ul class="movienavbar">
+                <label for="allmovies">
+                    <li class="radio-item"><input name="radio" id="allmovies" type="radio" value="allmovies"> All movies</li>
+                </label>
+                <label for="latestmovies">
+                    <li class="radio-item"><input name="radio" id="latestmovies" type="radio" value="latestmovies"> Latest movies</li>
+                </label>
+                <label for="avenger">
+                    <li class="radio-item"><input name="radio" id="avenger" type="radio" value="avenger"> Avenger movies</li>
+                </label>
+                <label for="batman">
+                    <li class="radio-item"><input name="radio" id="batman" type="radio" value="batman"> Batman movies</li>
+                </label>
+                <label for="princess">
+                    <li class="radio-item"><input name="radio" id="princess" type="radio" value="princess"> Princess movies</li>
+                </label>
+                <label for="x-men">
+                    <li class="radio-item"><input name="radio" id="x-men" type="radio" value="x-men"> X-men movies</li>
+                </label>
+            </ul>
+        </nav>
+        <nav class="searchnavbar">
+            <div class="searchbar">
+                <input type="text" name="searchmovie" class="search-input" id="search" placeholder="Find your Favorite Film ..." >
+            </div>
+        </nav>
+
+    </header>
+
+    <main class="main-area" id="main">
+            <div class="movie-info">
+                <ul class="info-movie" id="listofmovies"></ul>
+            </div>
+    </main>
+    
+</body>
+</html>
